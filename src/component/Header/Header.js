@@ -8,7 +8,7 @@ function Header() {
  
   return (
     <div className="all">
-      <article className='container'>
+      <div className='Header'>
         <div>
           <span>
            <strong>
@@ -52,8 +52,9 @@ function Header() {
              sign in | sign up
           </strong> 
         </div>
-
-      </article>
+        
+      </div>
+      <hr className='hr'></hr>
       <div className='bredcramp'>
           <span>
             <strong>

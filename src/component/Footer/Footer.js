@@ -3,7 +3,8 @@ import { Icon } from 'semantic-ui-react'
 import './Footer.css'
 function Footer() {
   return (
-    <div className='container'>
+    <div>
+      <div  className='container'>
       <div>
         <ul>
           <tr><strong>Home</strong></tr>
@@ -35,6 +36,12 @@ function Footer() {
           <tr><Icon name='instagram' size='small' />instagram</tr>
           <tr><Icon name='linkedin square' size='small' />linkedin</tr>
         </ul>
+      </div>
+      </div>
+      <div style={{textAlign:'center', marginTop:'50px', marginBottom:'50px',color:'#9c9c9c', fontSize:'13px'}}>
+        <p>
+          Copyright 2008.2019 Powerd by Job Board Software
+        </p>
       </div>
 
     </div>
