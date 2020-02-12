@@ -9,7 +9,7 @@ function Content() {
         <div>
         <Image src='https://www.thesun.co.uk/wp-content/uploads/2019/12/NINTCHDBPICT000474140953-e1577547392901.jpg' size='small' circular />
         <h2>
-            <span style={{marginLeft:'20px'}}>Edward </span>
+            <span className='title_img'>Edward </span>
             <br></br>
           Lobanovskiy
         </h2>
@@ -20,7 +20,7 @@ function Content() {
           Front End Developer
         </span>
         </div>
-        <div style={{marginBottom:'50px'}}>
+        <div>
         <List>
 
             <List.Item>
@@ -106,7 +106,7 @@ function Content() {
             </span>
           </div>
           <div className='font_WE'>
-             <Icon name='map marker alternate' size='small' />Aprile 12.2020.
+             <Icon name='calendar times outline' size='small' />Aprile 12.2020.
           </div>
         </div>  
         </div>
@@ -138,13 +138,13 @@ function Content() {
             </span>
           </div>
           <div className='font_WE'>
-             <Icon name='map marker alternate' size='small' />Aprile 12.2020.
+             <Icon name='calendar times outline' size='small' />Aprile 12.2020.
           </div>
          
         </div>  
         
         </div>
-        <hr className='hr'></hr>
+        <hr className='hr' ></hr>
         <div  className='workexprience'>
           <div style={{marginBottom:'50px'}}>
             <div  className='font_caption'>
@@ -172,7 +172,7 @@ function Content() {
             </span>
           </div>
           <div className='font_WE'>
-             <Icon name='map marker alternate' size='small' />Aprile 12.2020.
+             <Icon name='calendar times outline' size='small' />Aprile 12.2020.
           </div>
         </div>  
         </div>
@@ -199,7 +199,7 @@ function Content() {
         <div>
 
           <div style={{marginTop:'30px', color:'#9c9c9c'}}>
-             <Icon name='map marker alternate' size='small' />JUn 12.2014-Dec12.2014.2016
+             <Icon name='calendar times outline' size='small' />JUn 12.2014-Dec12.2014.2016
           </div>
         </div>  
         </div>
@@ -220,7 +220,7 @@ function Content() {
         <div>
 
           <div style={{marginTop:'30px',color:'#9c9c9c'}}>
-             <Icon name='map marker alternate' size='small' />JUn 12.2014-Dec12.2014.2016
+             <Icon name='calendar times outline' size='small' />JUn 12.2014-Dec12.2014.2016
           </div>
         </div>  
         </div>
