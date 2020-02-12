@@ -8,7 +8,7 @@ function Header() {
  
   return (
     <div>
-      <div className='Header'>
+      <div className='nav'>
         <div>
           <span>
            <strong>

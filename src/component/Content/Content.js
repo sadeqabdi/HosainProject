@@ -5,7 +5,7 @@ import { List, Button, Image, Icon  } from 'semantic-ui-react'
 function Content() {
   return (
     <div className='content_page'> 
-      <div className='image_column'>
+      <div className='block_img'>
         <div>
         <Image src='https://www.thesun.co.uk/wp-content/uploads/2019/12/NINTCHDBPICT000474140953-e1577547392901.jpg' size='small' circular />
         <h2>
@@ -56,7 +56,6 @@ function Content() {
           <Button primary>Download Resume</Button>
         </div>
       </div>
-
       <div style={{marginLeft:'350px', marginTop:'35px'}}>
         <div style={{marginBottom:'65px'}}>
           <h1>
@@ -78,7 +77,7 @@ function Content() {
             Work Experience
           </h1>
           </div>
-        <div  className='workexprience'>
+        <div  className='block_WE'>
           <div style={{marginBottom:'30px'}}>
             <div className='font_caption'>
               <span>
@@ -100,7 +99,7 @@ function Content() {
             </div>
           </div>
         <div>
-          <div className='fulltime'>
+          <div className='block_work'>
             <span>
               <strong>Full Time</strong>
             </span>
@@ -111,7 +110,7 @@ function Content() {
         </div>  
         </div>
         <hr className='hr'></hr>
-        <div  className='workexprience'>
+        <div  className='block_WE'>
           <div style={{marginBottom:'30px'}}>
             <div  className='font_caption'>
               <span>
@@ -132,7 +131,7 @@ function Content() {
             </div>
           </div>
         <div>
-          <div className='fulltime'>
+          <div className='block_work'>
             <span>
               <strong>Full Time</strong>
             </span>
@@ -140,12 +139,11 @@ function Content() {
           <div className='font_WE'>
              <Icon name='calendar times outline' size='small' />Aprile 12.2020.
           </div>
-         
         </div>  
-        
         </div>
+        
         <hr className='hr' ></hr>
-        <div  className='workexprience'>
+        <div  className='block_WE'>
           <div style={{marginBottom:'50px'}}>
             <div  className='font_caption'>
               <span>
@@ -166,7 +164,7 @@ function Content() {
             </div>
           </div>
         <div>
-          <div className='fulltime'>
+          <div className='block_work'>
             <span>
               <strong>Full Time</strong>
             </span>
@@ -182,7 +180,7 @@ function Content() {
             Education
           </h1>
           </div>
-        <div  className='workexprience'>
+        <div  className='block_WE'>
           <div style={{marginBottom:'40px'}}>
             <div  className='font_caption'>
               <span>
@@ -203,7 +201,7 @@ function Content() {
           </div>
         </div>  
         </div>
-        <div  className='workexprience'>
+        <div  className='block_WE'  >
           <div style={{marginBottom:'40px'}}>
             <div  className='font_caption'>
               <span>

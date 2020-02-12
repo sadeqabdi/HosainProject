@@ -1,5 +1,5 @@
 
-.image_column{
+.block_img{
     display: flex;
     flex-direction: column;
     margin-top: 50px;
@@ -23,13 +23,13 @@
     margin-top: 50px;
     margin-left: 100px;
 }
-.workexprience{
+.block_WE{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
     
 }
-.fulltime{
+.block_work{
     background-color: #1fffc3;
     border-radius: 20px;
     width: 84px;
