@@ -7,7 +7,7 @@ function Header() {
   const activeItemState = (e, { name }) => setActiveItem({ activeItem: name });
  
   return (
-    <div className="all">
+    <div>
       <div className='Header'>
         <div>
           <span>
